@@ -1,0 +1,30 @@
+/* Стиль для карточек товара */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Анимация при наведении на карточку */
+.card:hover {
+    transform: translateY(-10px);  /* Карточка немного поднимется */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Увеличится тень */
+}
+
+/* Стиль для изображений внутри карточек */
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Подсветка кнопки при наведении */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
